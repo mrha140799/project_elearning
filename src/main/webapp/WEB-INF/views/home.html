@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  type="text/css" href="/css/style.css" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+<style>
+body {font-family: "Times New Roman", "Times New Roman"}
+.mySlides {display: none}
+</style>
+<body>
+
+<div class="top">
+  <div class="bar black card">
+    <a class="bar-item button padding-large hide-medium hide-large right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#Trangchu" class="bar-item button padding-large">Trang Chủ</a>
+    <a href="#gioithieu" class="bar-item button padding-large hide-small">Giới thiệu</a>
+    <a href="#cackhoahoc" class="bar-item button padding-large hide-small">Các khóa học</a>
+    <a href="#lienhe" class="bar-item button padding-large hide-small">Liên hệ</a>
+    
+    <div class="dropdown-hover hide-small">
+      <button class="padding-large button" title="More">TIỆN ÍCH <i class="fa fa-caret-down"></i></button>     
+      <div class="dropdown-content bar-block card-4">
+        <a href="#" class="bar-item button">Tin tức </a>
+        <a href="#" class="bar-item button">Đề kiểm tra</a>
+        <a href="#" class="bar-item button">Hỗ trợ</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="padding-large hover-red hide-small right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="bar-block black hide hide-large hide-medium top" style="margin-top:46px">
+  <a href="#gioithieu" class="bar-item button padding-large" onclick="myFunction()">Giới thiệu</a>
+  <a href="#cackhoahoc" class="bar-item button padding-large" onclick="myFunction()">Các khóa học</a>
+  <a href="#giaovien" class="bar-item button padding-large" onclick="myFunction()">Giáo viên</a>
+  <a href="#" class="bar-item button padding-large" onclick="myFunction()">TIỆN ÍCH</a>
+</div>
+
+
+<div class="content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides display-container center">
+    <img src="/i/photo.jpg"  height="Automatic" width="Automatic">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+    </div>
+  </div>
+   <div class="mySlides display-container center">
+    <img src="/i/pho2.jpg"  height="Automatic" width="Automatic">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+    </div>
+  </div>
+   <div class="mySlides display-container center">
+    <img src="/i/photo.jpg"  height="Automatic" width="Automatic">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+    </div>
+  </div>
+
+
+
+  <div class="container content center padding-64" style="max-width:750px "  id="gioithieu">
+    <h2 class="wide" >Bứt Phá Mùa Hè Cùng Đại Học Sư Phạm Hà Nội </h2>
+    <p class="opacity"><i>Đại Học Sư Phạm Hà Nội!</i></p>
+    <p class="justify">
+      <p>Với mục đích cung cấp các giải pháp cho con “có việc để làm trong hè”, <strong><em>VỪA HỌC VỪA CHƠI VỚI CHI PHÍ HỢP LÝ,</em></strong> 
+        <strong><em>HNUE</em></strong> thiết kế chương trình Hè trải nghiệm mang tên: <strong><em>“Hè được chơi - Không rơi kiến thức”.</em></strong> 03 tuần trải nghiệm được xây dựng hướng đến mục đích giúp các em: ôn tập nhằm nắm chắc kiến thức đã học, ứng dụng các bài học lý thuyết vào thực tế cuộc sống, học qua trải nghiệm.</p>
+      <br>
+
+    </p>
+    <div class="row padding-32">
+      <div class="third">
+        <p>Dũng</p>
+        <img src="/i/Dung.jpg" class="round margin-bottom" alt="Giảng ciên" style="width:60%">
+      </div>
+      <div class="third">
+        <p>Hào</p>
+        <img src="/i/Hao.jpg" class="round margin-bottom" alt="Giảng viên" style="width:60%">
+      </div>
+      <div class="third">
+        <p>Quang</p>
+        <img src="/i/Ruto.jpg" class="round" alt="Giảng viên" style="width:60%">
+      </div>
+      <div class="third">
+        
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="black" id="cackhoahoc">
+    <div class="container content padding-64" style="max-width:800px">
+      <h2 class="wide center">NGÀY MỞ LỚP</h2>
+      <p class="opacity center"><i>Hãy nhớ ngày bạn đăng kí học!</i></p><br>
+
+      <ul class="ul border white text-grey">
+        <p style="margin-left: auto"><li class="padding">Thứ 2 <span class="tag red margin-left">Sắp hết chỗ </span></li></p>
+        <li class="padding">Thứ 4 <span class="tag red margin-left"> Sắp hết chỗ </span></li>
+        <li class="padding">Thứ 6 <span class="badge right margin-right">Còn nhiều</span></li>
+      </ul>
+
+      <div class="row-padding padding-32" style="margin:0 -16px">
+        <div class="third margin-bottom">
+          <img src="/i/math.jpg" alt="Toán Học" height="150px" style="width:100% " class="hover-opacity">
+          <div class="container white">
+            <p style="text-align: center;"><b> Toán Học</b></p>
+            <p class="opacity" >Thứ 2</p>
+
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"> Đăng Kí </button>
+          </div>
+        </div>
+        <div class="third margin-bottom">
+          <img src="/i/vanhoc.jpg" alt="Văn Học" style="width:100%" height="150px" class="hover-opacity">
+          <div class="container white">
+            <p style="text-align: center;"><b>Văn Học</b></p>
+            <p class="opacity" >Thứ 4</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"> Đăng Kí </button>
+          </div>
+        </div>
+        <div class="third margin-bottom">
+          <img src="/i/tienganh.jpg" alt="Ngoại Ngữ" style="width:100%" height="150px"  class="hover-opacity">
+          <div class="container white">
+            <p style="text-align: center;"><b>Ngoại Ngữ</b></p>
+            <p class="opacity">Thứ 6</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"> Đăng Kí </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container teal center padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="button teal xlarge display-topright">×</span>
+        <h2 class="wide"><i class="fa fa-suitcase margin-right"></i>Đăng Kí</h2>
+      </header>
+      <div class="container">
+        <form th:action="@{/dangki/success}" method="post" th:object="${user}">
+        <p><label><i class="fa fa-user"></i> Họ và tên </label></p>
+        <input class="input border" type="text" th:field="*{name}" placeholder="Input your name?">
+        <p><label> Email </label></p>
+        <input class="input border" type="text" th:field="*{email}" placeholder="Input your email?">
+          <button type="submit" class="button block teal padding-16 section right" onclick="ketQua()" >Gửi <i class="fa fa-check"></i></button>
+        </form>
+        <button class="button red section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="right">Bạn cần <a href="#" class="text-blue">Giúp đỡ?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Liên hệ Section -->
+  <div class="container content padding-64" style="max-width:800px" id="lienhe">
+    <h2 class="wide center">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+    <p class="opacity center"><i></i></p>
+    <div class="row padding-32">
+      <div class="col m6 large margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Đai học sư phạm Hà Nội<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0888 888 888<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email:  p.hcth@hnue.edu.vn<br>
+      </div>
+      <div class="col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="row-padding" style="margin:0 -16px 8px -16px">
+            <div class="half">
+              <input class="input border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="half">
+              <input class="input border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="input border" type="text" placeholder="Message" required name="Message">
+          <button class="button black section right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/i/map.jpg" class="image greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="container padding-64 center opacity light-grey xlarge">
+  <i class="fa fa-facebook-official hover-opacity"></i>
+  <i class="fa fa-instagram hover-opacity"></i>
+  <i class="fa fa-snapchat hover-opacity"></i>
+  <i class="fa fa-pinterest-p hover-opacity"></i>
+  <i class="fa fa-twitter hover-opacity"></i>
+  <i class="fa fa-linkedin hover-opacity"></i>
+  <p class="medium">Powered by <a href="http://hnue.edu.vn/" target="_blank">Tiến Dũng</a></p>
+</footer>
+
+<script th:inline="javascript">
+var myIndex = 0;
+carousel();
+function ketQua() {
+  var myResult ;
+  alert("Đã gửi! Đang chờ phê duyệt!");
+}
+// Automatic Slideshow - change image every 4 seconds
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else { 
+        x.className = x.className.replace(" show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</div>
+</body>
+</html>

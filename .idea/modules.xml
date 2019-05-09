@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-elearning.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-elearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-elearning_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-elearning_main.iml" group="spring-elearning" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-elearning_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-elearning_test.iml" group="spring-elearning" />
+    </modules>
+  </component>
+</project>
